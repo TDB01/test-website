@@ -1,0 +1,153 @@
+.rpsButton {
+    margin: 0;
+    flex-direction: column;
+    display: inline-flex;
+    align-items: center;
+    height: 70%;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Arial;
+    border-radius: 20px;
+}
+
+.buttonContainer {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    height: 300px;
+    border: 5px rgb(0, 0, 0) solid;
+    background-color: rgba(36, 36, 36, 0.911);
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.rpsButton:hover {
+    cursor: pointer;
+}
+
+.textContainer {
+    margin: 0;
+    margin-bottom: 0px;
+    display: flex;
+    border: 2px rgb(0, 0, 0) dashed;
+    background-color: rgb(73, 73, 73);
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 50px;
+    flex-direction: column;
+    padding-bottom: 20px;
+    column-gap: 10px;
+}
+
+.testText {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: Arial;
+    font-size: 30px;
+    color: darkred;
+}
+
+.detailsOfGame {
+    margin: 0;
+    font-family: Arial;
+    font-size: 20px;
+    color: rgb(122, 122, 122);
+}
+
+.propImage {
+    margin: 0;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.inputBar {
+    margin: 0;
+    width: 80%;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgb(27, 27, 27);
+    color: rgb(82, 82, 82);
+    border-color: rgb(0, 0, 0);
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.inputBar::placeholder {
+    color: rgb(119, 119, 119);
+    font-style: italic;
+}
+
+.submitButton {
+    margin: 0;
+    display: inline-block;
+    background-color: black;
+    border-radius: 15px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    color: green;
+    font-size: 20px;
+}
+
+.submitButton:hover {
+    cursor: pointer;
+}
+
+.inputBarHolder {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.historyCon {
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+    max-width: 1000px;
+    justify-content: center;
+    margin: auto;
+    overflow-wrap: anywhere;
+    padding: 20px;
+    border: 4px black;
+    border-style: groove;
+}
+
+.historyText {
+    font-size: 30px;
+    color: rgb(59, 59, 59);
+}
+
+.statCon {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.stat {
+    margin: 0;
+    display: inline-block;
+    font-size: 25px;
+    font-family: Arial;
+}

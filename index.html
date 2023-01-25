@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--metadata here-->
+    <meta charset="UTF-8">
+    <title>der Titel</title>
+    <!--link in .css file doesThisWork.css-->
+    <link rel="stylesheet" href="doesThisWork.css">
+</head>
+<body style=" margin: 0; margin-bottom: 400px; background-color: rgb(133, 133, 133);">
+    <div class="buttonContainer">
+        <!--Rock begins here-->
+        <div class="rpsButton" id="rock" onclick="playerChosen('rock')" style="box-shadow: 0px 0px 20px tomato;border: 5px red solid;
+        background-color: lightcoral;">
+            <!--Inner text-->
+            <img src="AssetFolder/rock.jpg" alt="A rock" class="propImage">
+            <p class="propText" style="color: darkred;">Rock</p>
+        </div>
+        <!--Paper begins here-->
+        <div class="rpsButton" id="paper" onclick="playerChosen('paper')" style="box-shadow: 0px 0px 20px aqua;border: 5px blue solid;
+        background-color: lightblue;">
+            <!--Inner text-->
+            <img src="AssetFolder/paper.jpeg" alt="A paper" class="propImage">
+            <p class="propText" style="color: blue;">Paper</p>
+        </div>
+        <!--Scissors begin here-->
+        <div class="rpsButton" id="scissors" onclick="playerChosen('scissors')" style="box-shadow: 0px 0px 20px yellowgreen; border: 5px yellow solid;
+        background-color: lightyellow;">
+            <!--Inner text-->
+            <img src="AssetFolder/scissors.png" alt="Scissors" class="propImage">
+            <p class="propText" style="color: rgb(151, 151, 39);">Scrisors</p>
+        </div>
+    </div>
+    <!--Statistics here-->
+    <div class="statCon">
+        <p class="stat">Wins: <span id="wins" style="color: green;">0</span></p>
+        <p class="stat">Losses: <span id="losses" style="color: red;">0</span></p>
+        <p class="stat">Draws: <span id="draws" style="color: rgb(190, 190, 0);">0</span></p>
+    </div>
+    <!--Win or Lose and game info here-->
+    <div class="textContainer">
+        <p class="testText" id="textToChange">Nothing here.</p>
+        <p class="detailsOfGame" id="details">Play the game above!</p>
+    </div>
+    <!--random input bar here-->
+    <div style="display: flex; height: 200px; position: relative;">
+        <div class="inputBarHolder">
+            <input type="text" name="nameHere" id="UserInput" class="inputBar" placeholder="Write here" value="">
+        <button onclick="submit()" class="submitButton">Submit</button>
+        </div>
+    </div>
+    <!--Input history-->
+    <div id="inputHistoryCon" class="historyCon">
+        <p id="history" class="historyText"></p>
+    </div>
+</body>
+<!--Attach script ./jstest.js-->
+<script src="jstest.js"></script>
+</html>
